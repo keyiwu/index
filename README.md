@@ -1,4 +1,4 @@
-# Dbs copilot  
+# copilot  
 
 项目描述：本项目基于react+brainAI进行开发，使用多模型进行互动，达到与jira 交互，并将实时asr引入进行，进行rm与custom的交互，风险识别 
 # 项目目录结构  
