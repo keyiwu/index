@@ -1,0 +1,22 @@
+.marquee-container {  
+    width: 100%; /* 可以根据需要调整宽度 */  
+    overflow: hidden; /* 隐藏超出部分 */  
+    white-space: nowrap; /* 防止换行 */  
+    position: relative;  
+    background-color: #f0f0f0; /* 背景颜色 */  
+    border: 1px solid #ccc; /* 边框样式 */  
+  }  
+  
+  .marquee-text {  
+    display: inline-block;  
+    animation: marquee 10s linear infinite; /* 动画效果 */  
+  }  
+  
+  @keyframes marquee {  
+    0% {  
+      transform: translateX(100%); /* 从右侧开始 */  
+    }  
+    100% {  
+      transform: translateX(-100%); /* 移动到左侧 */  
+    }  
+  } 
